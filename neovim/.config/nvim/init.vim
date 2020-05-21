@@ -45,9 +45,6 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
 nnoremap <C-p> :<C-u>FZF<CR>
 
-
-
-
 nnoremap <C-p> :<C-u>FZF<CR>
 
 nmap <leader>gd <Plug>(coc-definition)

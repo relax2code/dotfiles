@@ -91,5 +91,9 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Undotree
 Plug 'mbbill/undotree'
+
+" Ripgrep
+Plug 'jremmen/vim-ripgrep'
+
 " Initialize plugin system
 call plug#end()
