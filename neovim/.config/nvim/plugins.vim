@@ -32,6 +32,7 @@ Plug 'easymotion/vim-easymotion'
 
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc-denite'
 
 " Denite - Fuzzy finding, buffer management
 Plug 'Shougo/denite.nvim'
@@ -81,6 +82,7 @@ Plug 'scrooloose/nerdtree'
 
 " Colorscheme
 Plug 'sainnhe/gruvbox-material'
+Plug 'tomasiser/vim-code-dark'
 
 " Customized vim status line
 Plug 'vim-airline/vim-airline'
@@ -89,7 +91,7 @@ Plug 'vim-airline/vim-airline-themes'
 " Icons
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
+Plug 'scrooloose/nerdcommenter'
 " Undotree
 Plug 'mbbill/undotree'
 
