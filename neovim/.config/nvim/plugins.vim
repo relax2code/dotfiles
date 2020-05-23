@@ -82,6 +82,7 @@ Plug 'scrooloose/nerdtree'
 
 " Colorscheme
 Plug 'sainnhe/gruvbox-material'
+Plug 'mhartington/oceanic-next'
 Plug 'tomasiser/vim-code-dark'
 
 " Customized vim status line
