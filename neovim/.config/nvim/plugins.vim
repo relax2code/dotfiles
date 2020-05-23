@@ -36,7 +36,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Denite - Fuzzy finding, buffer management
 Plug 'Shougo/denite.nvim'
 
-" Fzf 
+" Fzf
 Plug 'junegunn/fzf', { 'do':{ -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -51,6 +51,8 @@ Plug 'Shougo/echodoc.vim'
 " Enable git changes to be shown in sign column
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
+Plug 'junegunn/gv.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " === Javascript Plugins === "
 " Typescript syntax highlighting
@@ -78,7 +80,7 @@ Plug 'othree/yajs.vim'
 Plug 'scrooloose/nerdtree'
 
 " Colorscheme
-Plug 'gruvbox-community/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 
 " Customized vim status line
 Plug 'vim-airline/vim-airline'

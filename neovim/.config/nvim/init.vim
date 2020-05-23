@@ -21,14 +21,24 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " all plugins
 source ~/.config/nvim/plugins.vim
 "
-colorscheme gruvbox
+" Scheme UI
+if has('termguicolors')
+  set termguicolors
+endif
+
 set background=dark
+let g:gruvbox_material_background = 'medium'
+
+colorscheme gruvbox-material
 
 " Netrw
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
+
+" NERDTree
+let NERDTreeShowHidden=1
 
 let mapleader=" "
 nnoremap <leader>h :wincmd h<CR>
