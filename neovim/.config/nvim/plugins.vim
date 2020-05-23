@@ -78,8 +78,7 @@ Plug 'othree/yajs.vim'
 Plug 'scrooloose/nerdtree'
 
 " Colorscheme
-" Plug 'mhartington/oceanic-next'
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
 
 " Customized vim status line
 Plug 'vim-airline/vim-airline'
