@@ -6,7 +6,7 @@ source ~/.config/nvim/plugins.vim
 " ============================================================================ "
 
 " Remap leader key to ,
-let g:mapleader=','
+let g:mapleader=' '
 
 " Disable line numbers
 set nonumber
@@ -52,6 +52,11 @@ set shortmess+=c
 " ============================================================================ "
 " ===                           PLUGIN SETUP                               === "
 " ============================================================================ "
+" === NEOTERM  setup ===
+let g:neoterm_autoscroll = 1
+let g:neoterm_size = 10
+let g:neoterm_keep_term_open = 1
+let g:neoterm_test_status_format = 1
 
 " Wrap in try/catch to avoid errors on initial install before plugin is available
 try
@@ -338,6 +343,15 @@ colorscheme gruvbox-material
 " ===                             KEY MAPPINGS                             === "
 " ============================================================================ "
 
+" === NEOTERM ===
+
+nnoremap <Leader>ro :Topen<CR>
+nnoremap <Leader>rk :call neoterm#close()<CR>
+nnoremap <Leader>rc :call neoterm#clear()<CR>
+nnoremap <Leader>rr :call neoterm#clear() \| call neoterm#exec(['!!', '', ''])<CR>
+
+command! Troutes :T rake routes
+
 " === Denite shorcuts === "
 "   ;         - Browser currently open buffers
 "   <leader>t - Browse list of files in current directory
@@ -414,8 +428,8 @@ nmap <leader>f :NERDTreeFind<CR>
 
 "   <Space> - PageDown
 "   -       - PageUp
-noremap <Space> <PageDown>
-noremap - <PageUp>
+"noremap <Space> <PageDown>
+"noremap - <PageUp>
 
 " Quick window switching
 nmap <C-h> <C-w>h
@@ -488,9 +502,8 @@ if has('persistent_undo')
   set undolevels=3000
   set undoreload=10000
 endif
-set backupdir=~/.local/share/nvim/backup " Don't put backups in current dir
-set backup
-set noswapfile
+"set backupdir=~/.local/share/nvim/backup " Don't put backups in current dir set backup
+"set noswapfile
 
 " Reload icons after init source
 if exists('g:loaded_webdevicons')

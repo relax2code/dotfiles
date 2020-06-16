@@ -66,7 +66,7 @@ Plug 'mxw/vim-jsx'
 Plug 'heavenshell/vim-jsdoc'
 
 " === Syntax Highlighting === "
-
+Plug 'mattn/emmet-vim'
 " Syntax highlighting for nginx
 Plug 'chr4/nginx.vim'
 
@@ -99,5 +99,6 @@ Plug 'mbbill/undotree'
 " Ripgrep
 Plug 'jremmen/vim-ripgrep'
 
+Plug 'kassio/neoterm'
 " Initialize plugin system
 call plug#end()
