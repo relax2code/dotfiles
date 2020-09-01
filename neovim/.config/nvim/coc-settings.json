@@ -44,10 +44,10 @@
     "eelixir": "mix_format"
   },
   "elixir": {
-    "command": "~/.config/nvim/plugged/elixir-ls/release/language_server.sh",
+    "command": "~/.elixir-ls/release/language_server.sh",
     "filetypes": ["elixir", "eelixir"]
   },
-  "elixir.pathToElixirLS": "~/.config/nvim/plugged/elixir-ls/release/language_server.sh",
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "css.validate":false ,
   "less.validate": false,
   "scss.validate": false,

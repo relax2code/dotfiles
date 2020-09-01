@@ -2,3 +2,6 @@ neovim/.config/nvim/autoload
 neovim/.config/nvim/plugged
 neovim/.config/nvim/undodir/*
 neovim/.config/nvim/.netrwhist
+naps62
+naps
+*-cargo*

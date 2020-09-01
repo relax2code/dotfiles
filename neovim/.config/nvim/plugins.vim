@@ -55,6 +55,17 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" Elixir
+Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
+Plug 'tpope/vim-endwise',    { 'for': ['ruby', 'elixir'] }
+" Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
+let g:coc_global_extensions = ['coc-elixir', 'coc-diagnostic']
+
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+Plug 'christoomey/vim-tmux-navigator'
+
 " === Javascript Plugins === "
 " Typescript syntax highlighting
 Plug 'HerringtonDarkholme/yats.vim'
