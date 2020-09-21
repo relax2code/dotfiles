@@ -58,8 +58,14 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " Elixir
 Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
 Plug 'tpope/vim-endwise',    { 'for': ['ruby', 'elixir'] }
+Plug 'lucidstack/hex.vim'
+Plug 'mattn/webapi-vim'
 " Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 let g:coc_global_extensions = ['coc-elixir', 'coc-diagnostic']
+
+" Rust
+Plug 'rust-lang/rust.vim'
+Plug 'fannheyward/coc-rust-analyzer'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -111,5 +117,7 @@ Plug 'mbbill/undotree'
 Plug 'jremmen/vim-ripgrep'
 
 Plug 'kassio/neoterm'
+
+Plug 'tpope/vim-surround'
 " Initialize plugin system
 call plug#end()
